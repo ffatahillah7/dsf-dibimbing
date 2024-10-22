@@ -1,9 +1,23 @@
 # DSF-Dibimbing 
 Data Science Fair 3.0 Dibimbing Portofolio - Analyctics and Learning from titanic dataset
 
+The purpose of this project is to master the exploratory data analysis (EDA) in titanic crash with Pandas framework.
+
 Download Dataset file : https://www.kaggle.com/competitions/titanic
 
-# How To Learn with Cross-Industry Standard Process for Data Mining (CRISP-DM)
+## Goals of the Project:
+1.  Explore a banking dataset with Pandas framework.
+2.  Build pivot tables.
+3.  Visualize the dataset with various plot types.
+
+## Outline
+1.  Materials and methods
+2.  General Part : Data Preprocessing, Data Cleaning, Data Visualization
+3.  Tasks
+
+## Materials and Methods
+
+### How To Learn with Cross-Industry Standard Process for Data Mining (CRISP-DM)
 1. Business Understanding
 2. Data Understanding
 3. Data Preparation
@@ -11,49 +25,49 @@ Download Dataset file : https://www.kaggle.com/competitions/titanic
 5. Evaluation
 6. Deployment
 
-# Start Working
+### Start Working
 
 Download Libary that you need for analytics
 
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 
-## Read Data
+### Read Data
 used pandas library to read the data that we want to learn and analysis. Then, store it to data frame.
 
 df = pd.read_csv("/kaggle/input/titanic/train.csv")
 
 df #Show data frame from csv file
 
-## Statistik deskriptif dari data
+### Statistik deskriptif dari data
 
-## Check value yang kosong
+### Check Null value
 
-## Data Preprocessing
+### Data Preprocessing
 
-### Isi data kosong pada Kolom Age dengan Median
+### Fill Blank data on Age Columns with Median
 
-### Isi data kosong pada Kolom Embarked dengan Modus
+### Fill Blank data on Embarked Columns with Modus
 
-### Drop kolom Cabin karena banyak yang kosong
+### Drop Cabin's Columns because too much empty value
 
-### Check hasil setelah di preprocess
+### Check null value as well
 
 ## EDA
 
-### Import library untuk EDA
+### Import library for EDA
 
-### Analisis Kolom Age
+### Analysis for Age Columns
 
-### Analisis Kolom Fare
+### Analysis for Fare Columns
 
-### Analisis Kolom Pclass
+### Analysis for Pclass Columns
 
-### Analisis Kolom Sex
+### Analysis for Sex Columns
 
 ### Correlation Matrix
 
-Pclass dan Fare memiliki korelasi negativ, semakin rendah Pclass maka semakin tinggi Fare-nya
+Pclass and Fare have a negative correlation, the lower the Pclass, the higher the Fare
 
-Fitur yang paling berpengaruh terhadap Survived adalah Pclass
+The feature that has the most influence on Survived is Pclass
 
