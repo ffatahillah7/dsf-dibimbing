@@ -21,10 +21,10 @@ Download Dataset file : https://www.kaggle.com/competitions/titanic
 1. Business Understanding : The Business Understanding phase focuses on understanding the objectives and requirements of the project
 2. Data Understanding : Next is the Data Understanding phase. Adding to the foundation of Business Understanding, it drives the focus to identify, collect, and analyze the data sets that can help you accomplish the project goals. This phase also has four tasks:
 
-  1.  Collect initial data: Acquire the necessary data and (if necessary) load it into your analysis tool.
-  2.  Describe data: Examine the data and document its surface properties like data format, number of records, or field identities.
-  3.  Explore data: Dig deeper into the data. Query it, visualize it, and identify relationships among the data.
-  4.  Verify data quality: How clean/dirty is the data? Document any quality issues.
+    i.  Collect initial data: Acquire the necessary data and (if necessary) load it into your analysis tool.
+    ii.  Describe data: Examine the data and document its surface properties like data format, number of records, or field identities.
+    iii.  Explore data: Dig deeper into the data. Query it, visualize it, and identify relationships among the data.
+    iv.  Verify data quality: How clean/dirty is the data? Document any quality issues.
   
 3. Data Preparation : This phase, which is often referred to as “data munging”, prepares the final data set(s) for modeling. It has five tasks:
 
