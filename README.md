@@ -1,5 +1,5 @@
 # DSF-Dibimbing 
-Data Science Fair 3.0 Dibimbing Portofolio - Analyctics and Learning from titanic dataset
+Data Science Fair 3.0 Dibimbing Portofolio - Analysis and Learning from titanic dataset
 
 The purpose of this project is to master the exploratory data analysis (EDA) in titanic crash with Pandas framework.
 
