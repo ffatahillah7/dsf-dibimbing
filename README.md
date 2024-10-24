@@ -18,11 +18,11 @@ Download Dataset file : https://www.kaggle.com/competitions/titanic
 ## Materials and Methods
 
 ### How To Learn with Cross-Industry Standard Process for Data Mining (CRISP-DM)
-1. Business Understanding : The Business Understanding phase focuses on understanding the objectives and requirements of the project
+1. Business Understanding : The Business Understanding phase focuses on understanding the objectives and requirements of the project. In this project, we should know about what's happening, why it's happening and who is involved in Titanic Accident.
 
-2. Data Understanding : Next is the Data Understanding phase. Adding to the foundation of Business Understanding, it drives the focus to identify, collect, and analyze the data sets that can help you accomplish the project goals. This phase also has four tasks:
+2. Data Understanding : Next is the Data Understanding phase. Adding to the foundation of Business Understanding, it drives the focus to identify, collect, and analyze the data sets that can help you accomplish the project goals. The data is consist of Name of Passengers, Age, Sex, Fare, Embarked, Class of ticket (Pclass) and so on.
   
-3. Data Preparation : This phase, which is often referred to as “data munging”, prepares the final data set(s) for modeling. It has five tasks:
+3. Data Preparation : This phase, which is often referred to as “data munging”, prepares the final data set(s) for modeling. In this methods , we cleaning the data from anomali, null, not correlation data and any others missed from the data source.
        
 4. Modeling : What is widely regarded as data science’s most exciting work is also often the shortest phase of the project. Here you’ll likely build and assess various models based on several different modeling techniques.
    
@@ -72,7 +72,14 @@ df #Show data frame from csv file
 
 ### Correlation Matrix
 
-Pclass and Fare have a negative correlation, the lower the Pclass, the higher the Fare
+# Conclusion
 
-The feature that has the most influence on Survived is Pclass
+-  Children under 10 years have a better chance of surviving, perhaps because they are prioritized for rescue using lifeboats
+
+-  Pclass and Fare have a negative correlation, the lower the Pclass, the higher the Fare
+
+-  The feature that has the most influence on Survived is Pclass
+-  Passengers with high costs have a better chance of surviving than those with low costs
+-  The percentage of survivors in Pclass = 1 is greater than in Pclass 2 and 3
+-  The percentage of survivors in Sex = female is higher than male
 
